@@ -184,7 +184,7 @@ font-size: 2.5vw;
     font-size: 11vw;
     font-family: 'Rubik Distressed', cursive;
     color: rgb(221,183,36,0.6);
-    margin-top: -450px !important;
+    margin-top: -33% !important;
     margin-left: 200px;
     transform: rotate(-15deg);
         
@@ -194,6 +194,14 @@ font-size: 2.5vw;
     background-color:  rgb(236,235,232);
 }
 
+
+.boobleheadimage{
+    width: 70%;
+}
+
+.booblehead-description{
+    padding-bottom: 6%;
+}
 
 .hide{
     background-color: white;
@@ -205,10 +213,6 @@ font-size: 2.5vw;
 }
 
 
-.hide p{
-    font-family: 'Oswald', bold;
-    text-align: center;
-}
 
 .location{
     color:grey
