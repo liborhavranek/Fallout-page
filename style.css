@@ -190,6 +190,13 @@ font-size: 2.5vw;
         
 }
 
+.booblehead-list li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5vw;
+    padding-left: 8%;
+    padding-bottom: 3%;
+}
+
 .boobleheadmap{
     background-color:  rgb(236,235,232);
 }
@@ -322,6 +329,83 @@ font-size: 2.5vw;
 
 }
 
+#perception-button{
+    margin-right: 5%;
+}
 
+#explosive-button{
+    margin-right: 5%;
+}
 
+#repair-button{
+    margin-right: 5%;
+}
+
+#luck-button{
+    margin-right: 5%;
+}
+
+#agility-button{
+    margin-right: 5%;
+}
+
+#endurance-button{
+    margin-right: 5%;
+}
+
+#unarmed-button{
+    margin-right: 5%;
+}
+
+#smallguns-button{
+    margin-right: 5%;
+}
+
+#bigguns-button{
+    margin-right: 5%;
+}
+
+#medicine-button{
+    margin-right: 5%;
+}
+
+#intelligence-button{
+    margin-right: 5%;
+}
+
+#meele-button{
+    margin-right: 5%;
+}
+
+#lock-button{
+    margin-right: 5%;
+}
+
+#barter-button{
+    margin-right: 5%;
+}
+
+#sneak-button{
+    margin-right: 5%;
+}
+
+#science-button{
+    margin-right: 5%;
+}
+
+#speech-button{
+    margin-right: 5%;
+}
+
+#strength-button{
+    margin-right: 5%;
+}
+
+#charisma-button{
+    margin-right: 5%;
+}
+
+#energyweapon-button{
+    margin-right: 5%;
+}
 /* booblehead section end */
