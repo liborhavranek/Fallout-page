@@ -2,104 +2,84 @@
 
 $(document).ready(function(){
   $(".hide").hide();  
-
   $(".meele-booblehead").click(function(){
-      $(".hide").hide();  
     $(".meele-booblehead-description").toggle();
+    
   });
 
   $(".explosive-booblehead").click(function(){
-      $(".hide").hide();  
     $(".explosive-booblehead-description").toggle();
   });
 
   $(".sneak-booblehead").click(function(){
-      $(".hide").hide();  
     $(".sneak-booblehead-description").toggle();
   });
 
   $(".barter-booblehead").click(function(){
-      $(".hide").hide();  
     $(".barter-booblehead-description").toggle();
   });
 
-  $(".perception-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".perception-booblehead").click(function(){ 
     $(".perception-booblehead-description").toggle();
   });
 
-  $(".strength-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".strength-booblehead").click(function(){ 
     $(".strength-booblehead-description").toggle();
   });
 
-  $(".speech-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".speech-booblehead").click(function(){ 
     $(".speech-booblehead-description").toggle();
   });
 
   $(".charisma-booblehead").click(function(){
-      $(".hide").hide();  
     $(".charisma-booblehead-description").toggle();
   });
 
   $(".lock-booblehead").click(function(){
-      $(".hide").hide();  
     $(".lock-booblehead-description").toggle();
   });
 
-  $(".smallguns-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".smallguns-booblehead").click(function(){ 
     $(".smallguns-booblehead-description").toggle();
   });
 
-  $(".bigguns-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".bigguns-booblehead").click(function(){ 
     $(".bigguns-booblehead-description").toggle();
   });
 
-  $(".medicine-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".medicine-booblehead").click(function(){ 
     $(".medicine-booblehead-description").toggle(); 
   });
 
-  $(".intelligence-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".intelligence-booblehead").click(function(){ 
     $(".intelligence-booblehead-description").toggle();
   });
 
   $(".endurance-booblehead").click(function(){
-      $(".hide").hide();  
     $(".endurance-booblehead-description").toggle();
   });
 
   $(".unarmed-booblehead").click(function(){
-      $(".hide").hide();  
     $(".unarmed-booblehead-description").toggle();
   });
 
-  $(".agility-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".agility-booblehead").click(function(){  
     $(".agility-booblehead-description").toggle();
   });
 
   $(".energyweapon").click(function(){
-      $(".hide").hide();  
     $(".energyweapon-booblehead-description").toggle();
   });
 
-  $(".luck-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".luck-booblehead").click(function(){ 
     $(".luck-booblehead-description").toggle();
   });
 
-  $(".repair-booblehead").click(function(){
-      $(".hide").hide();  
+  $(".repair-booblehead").click(function(){ 
     $(".repair-booblehead-description").toggle();
   });
 
   $(".science-booblehead").click(function(){
-      $(".hide").hide();  
     $(".science-booblehead-description").toggle();
   });
 
@@ -120,6 +100,9 @@ $(function(){
       $(".perception-checkbox").prop( "checked", true );
       $(".perception-li").css( "text-decoration", 'line-through' );
       $(".perception-li").css( 'color', 'gray' );
+      $("#id7").hide(); 
+      $(".perception-booblehead-description").fadeOut(3000); 
+
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -130,6 +113,7 @@ $(function(){
       $( ".perception-checkbox" ).prop( "checked", false );
       $(".perception-li").css( "text-decoration", 'none' );
       $(".perception-li").css( 'color', 'black' );
+      $("#id7").show(); 
     }
   });
 });
@@ -148,6 +132,8 @@ $(function(){
       $(".explosive-checkbox").prop( "checked", true );
       $(".explosive-li").css( "text-decoration", 'line-through' );
       $(".explosive-li").css( 'color', 'gray' );
+      $("#id4").hide(); 
+      $(".explosive-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -158,6 +144,7 @@ $(function(){
       $(".explosive-checkbox" ).prop( "checked", false );
       $(".explosive-li").css( "text-decoration", 'none' );
       $(".explosive-li").css( 'color', 'black' );
+      $("#id4").show(); 
     }
   });
 });
@@ -177,6 +164,8 @@ $(function(){
       $(".repair-checkbox").prop( "checked", true );
       $(".repair-li").css( "text-decoration", 'line-through' );
       $(".repair-li").css( 'color', 'gray' );
+      $("#id21").hide(); 
+      $(".repair-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -187,6 +176,7 @@ $(function(){
       $(".repair-checkbox" ).prop( "checked", false );
       $(".repair-li").css( "text-decoration", 'none' );
       $(".repair-li").css( 'color', 'black' );
+      $("#id21").show(); 
     }
   });
 });
@@ -206,6 +196,8 @@ $(function(){
       $(".luck-checkbox").prop( "checked", true );
       $(".luck-li").css( "text-decoration", 'line-through' );
       $(".luck-li").css( 'color', 'gray' );
+      $("#id20").hide(); 
+      $(".luck-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -216,12 +208,13 @@ $(function(){
       $(".luck-checkbox" ).prop( "checked", false );
       $(".luck-li").css( "text-decoration", 'none' );
       $(".luck-li").css( 'color', 'black' );
+      $("#id20").show()
     }
   });
 });
 // luck funciton end👆
 
-// luck funciton start👇
+// agility funciton start👇
 $(function(){
   $(".agility-checkbox").attr("disabled", true);
   $("#agility-button").click(function(){
@@ -234,6 +227,8 @@ $(function(){
       $(".agility-checkbox").prop( "checked", true );
       $(".agility-li").css( "text-decoration", 'line-through' );
       $(".agility-li").css( 'color', 'gray' );
+      $("#id18").hide(); 
+      $(".agility-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -244,10 +239,11 @@ $(function(){
       $(".agility-checkbox" ).prop( "checked", false );
       $(".agility-li").css( "text-decoration", 'none' );
       $(".agility-li").css( 'color', 'black' );
+      $("#id18").show(); 
     }
   });
 });
-// luck funciton end👆
+// agility funciton end👆
 
 // endurance funciton start👇
 $(function(){
@@ -262,6 +258,8 @@ $(function(){
       $(".endurance-checkbox").prop( "checked", true );
       $(".endurance-li").css( "text-decoration", 'line-through' );
       $(".endurance-li").css( 'color', 'gray' );
+      $("#id17").hide(); 
+      $(".endurance-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -272,6 +270,7 @@ $(function(){
       $(".endurance-checkbox" ).prop( "checked", false );
       $(".endurance-li").css( "text-decoration", 'none' );
       $(".endurance-li").css( 'color', 'black' );
+      $("#id17").show(); 
     }
   });
 });
@@ -291,6 +290,8 @@ $(function(){
       $(".unarmed-checkbox").prop( "checked", true );
       $(".unarmed-li").css( "text-decoration", 'line-through' );
       $(".unarmed-li").css( 'color', 'gray' );
+      $("#id16").hide(); 
+      $(".unarmed-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -301,6 +302,7 @@ $(function(){
       $(".unarmed-checkbox" ).prop( "checked", false );
       $(".unarmed-li").css( "text-decoration", 'none' );
       $(".unarmed-li").css( 'color', 'black' );
+      $("#id16").show(); 
     }
   });
 });
@@ -319,6 +321,8 @@ $(function(){
       $(".smallguns-checkbox").prop( "checked", true );
       $(".smallguns-li").css( "text-decoration", 'line-through' );
       $(".smallguns-li").css( 'color', 'gray' );
+      $("#id12").hide(); 
+      $(".smallguns-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -329,6 +333,7 @@ $(function(){
       $(".smallguns-checkbox" ).prop( "checked", false );
       $(".smallguns-li").css( "text-decoration", 'none' );
       $(".smallguns-li").css( 'color', 'black' );
+      $("#id12").show(); 
     }
   });
 });
@@ -347,6 +352,8 @@ $(function(){
       $(".bigguns-checkbox").prop( "checked", true );
       $(".bigguns-li").css( "text-decoration", 'line-through' );
       $(".bigguns-li").css( 'color', 'gray' );
+      $("#id13").hide(); 
+      $(".bigguns-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -357,6 +364,7 @@ $(function(){
       $(".bigguns-checkbox" ).prop( "checked", false );
       $(".bigguns-li").css( "text-decoration", 'none' );
       $(".bigguns-li").css( 'color', 'black' );
+      $("#id13").show();
     }
   });
 });
@@ -375,6 +383,8 @@ $(function(){
       $(".medicine-checkbox").prop( "checked", true );
       $(".medicine-li").css( "text-decoration", 'line-through' );
       $(".medicine-li").css( 'color', 'gray' );
+      $("#id14").hide(); 
+      $(".medicine-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -385,6 +395,7 @@ $(function(){
       $(".medicine-checkbox" ).prop( "checked", false );
       $(".medicine-li").css( "text-decoration", 'none' );
       $(".medicine-li").css( 'color', 'black' );
+      $("#id14").show(); 
     }
   });
 });
@@ -404,6 +415,8 @@ $(function(){
       $(".intelligence-checkbox").prop( "checked", true );
       $(".intelligence-li").css( "text-decoration", 'line-through' );
       $(".intelligence-li").css( 'color', 'gray' );
+      $("#id15").hide(); 
+      $(".intelligence-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -414,6 +427,7 @@ $(function(){
       $(".intelligence-checkbox" ).prop( "checked", false );
       $(".intelligence-li").css( "text-decoration", 'none' );
       $(".intelligence-li").css( 'color', 'black' );
+      $("#id15").show(); 
     }
   });
 });
@@ -433,6 +447,8 @@ $(function(){
       $(".meele-checkbox").prop( "checked", true );
       $(".meele-li").css( "text-decoration", 'line-through' );
       $(".meele-li").css( 'color', 'gray' );
+      $("#id3").hide(); 
+      $(".meele-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -443,6 +459,7 @@ $(function(){
       $(".meele-checkbox" ).prop( "checked", false );
       $(".meele-li").css( "text-decoration", 'none' );
       $(".meele-li").css( 'color', 'black' );
+      $("#id3").show(); 
     }
   });
 });
@@ -462,6 +479,8 @@ $(function(){
       $(".lock-checkbox").prop( "checked", true );
       $(".lock-li").css( "text-decoration", 'line-through' );
       $(".lock-li").css( 'color', 'gray' );
+      $("#id11").hide(); 
+      $(".lock-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -472,6 +491,7 @@ $(function(){
       $(".lock-checkbox" ).prop( "checked", false );
       $(".lock-li").css( "text-decoration", 'none' );
       $(".lock-li").css( 'color', 'black' );
+      $("#id11").show(); 
     }
   });
 });
@@ -491,6 +511,8 @@ $(function(){
       $(".barter-checkbox").prop( "checked", true );
       $(".barter-li").css( "text-decoration", 'line-through' );
       $(".barter-li").css( 'color', 'gray' );
+      $("#id6").hide(); 
+      $(".barter-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -501,6 +523,7 @@ $(function(){
       $(".barter-checkbox" ).prop( "checked", false );
       $(".barter-li").css( "text-decoration", 'none' );
       $(".barter-li").css( 'color', 'black' );
+      $("#id6").show(); 
     }
   });
 });
@@ -520,6 +543,8 @@ $(function(){
       $(".sneak-checkbox").prop( "checked", true );
       $(".sneak-li").css( "text-decoration", 'line-through' );
       $(".sneak-li").css( 'color', 'gray' );
+      $("#id5").hide(); 
+      $(".sneak-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -530,6 +555,7 @@ $(function(){
       $(".sneak-checkbox" ).prop( "checked", false );
       $(".sneak-li").css( "text-decoration", 'none' );
       $(".sneak-li").css( 'color', 'black' );
+      $("#id5").show(); 
     }
   });
 });
@@ -549,6 +575,8 @@ $(function(){
       $(".science-checkbox").prop( "checked", true );
       $(".science-li").css( "text-decoration", 'line-through' );
       $(".science-li").css( 'color', 'gray' );
+      $("#id22").hide(); 
+      $(".science-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -559,6 +587,7 @@ $(function(){
       $(".science-checkbox" ).prop( "checked", false );
       $(".science-li").css( "text-decoration", 'none' );
       $(".science-li").css( 'color', 'black' );
+      $("#id22").show();
     }
   });
 });
@@ -578,6 +607,8 @@ $(function(){
       $(".speech-checkbox").prop( "checked", true );
       $(".speech-li").css( "text-decoration", 'line-through' );
       $(".speech-li").css( 'color', 'gray' );
+      $("#id9").hide(); 
+      $(".speech-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -588,6 +619,7 @@ $(function(){
       $(".speech-checkbox" ).prop( "checked", false );
       $(".speech-li").css( "text-decoration", 'none' );
       $(".speech-li").css( 'color', 'black' );
+      $("#id9").show(); 
     }
   });
 });
@@ -607,6 +639,8 @@ $(function(){
       $(".strength-checkbox").prop( "checked", true );
       $(".strength-li").css( "text-decoration", 'line-through' );
       $(".strength-li").css( 'color', 'gray' );
+      $("#id8").hide(); 
+      $(".strength-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -617,6 +651,7 @@ $(function(){
       $(".strength-checkbox" ).prop( "checked", false );
       $(".strength-li").css( "text-decoration", 'none' );
       $(".strength-li").css( 'color', 'black' );
+      $("#id8").show();
     }
   });
 });
@@ -635,6 +670,8 @@ $(function(){
       $(".charisma-checkbox").prop( "checked", true );
       $(".charisma-li").css( "text-decoration", 'line-through' );
       $(".charisma-li").css( 'color', 'gray' );
+      $("#id10").hide(); 
+      $(".charisma-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -645,6 +682,7 @@ $(function(){
       $(".charisma-checkbox" ).prop( "checked", false );
       $(".charisma-li").css( "text-decoration", 'none' );
       $(".charisma-li").css( 'color', 'black' );
+      $("#id10").show(); 
     }
   });
 });
@@ -663,6 +701,8 @@ $(function(){
       $(".energyweapon-checkbox").prop( "checked", true );
       $(".energyweapon-li").css( "text-decoration", 'line-through' );
       $(".energyweapon-li").css( 'color', 'gray' );
+      $("#id19").hide(); 
+      $(".energyweapon-booblehead-description").fadeOut(3000); 
     }
     else if (!$(this).hasClass("btn-danger")){
       $(this).removeClass("btn-success")
@@ -673,6 +713,7 @@ $(function(){
       $(".energyweapon-checkbox" ).prop( "checked", false );
       $(".energyweapon-li").css( "text-decoration", 'none' );
       $(".energyweapon-li").css( 'color', 'black' );
+      $("#id19").show(); 
     }
   });
 });
