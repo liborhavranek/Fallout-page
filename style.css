@@ -169,6 +169,8 @@ font-size: 2.5vw;
 
 /* booblehead section start */
 
+
+
 .image-container{
     background-color: black;
 }
@@ -218,6 +220,132 @@ font-size: 2.5vw;
     font-size: 1.7vw;
     font-family: 'Oswald', sans-serif;
     text-align: justify;
+}
+
+
+.booblehead-center{
+    background-color: black;
+    padding-bottom: 3%;
+    padding-top: 3%;
+
+}
+
+.side-booble{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-booble{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booble-popis-vnimani{
+    color: rgb(221,183,36);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    text-align: center;  
+}
+
+.booble-popis-rychlost{
+    color: rgb(221,183,36);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    text-align: center;  
+}
+
+
+
+.booble-popis-hbitost{
+    color: rgb(221,183,36);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.text-booble{
+    padding-top: 5%;
+    color: rgb(221,183,36);
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.booblehead-list-container{
+    padding-top: 3%;
+    background-color:  rgb(236,235,232);
+    padding-right: 7%;
+}
+
+.booblehead-image{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.booble-name{
+    text-align: center;
+    font-size: 1.8vw;
+    font-family: 'Oswald', bold;
+}
+
+.booble-description{
+    text-align: center;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    padding-top: 1%;
+}
+
+.booble-hr{
+    margin: auto;
+    width: 80%;
+}
+
+.map-image{
+    padding-top: 14%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.go-to-map{
+    font-size: 5vw;
+    font-family: 'Oswald', bold;
+    text-align: center;
+    margin: auto;
+}
+
+.go-to-map :hover{
+    color: rgb(221,183,36);
+}
+
+.go-to-map a {
+    all: unset;    
+}
+
+.booble-name a {
+    all: unset;    
+}
+
+.booble-name a:hover {
+    color: rgb(221,183,36);  
+}
+/* booblehead section end */
+
+
+
+/* map section start */
+.map-row{
+    padding-top: 4%;
 }
 
 .hide{
@@ -418,120 +546,47 @@ font-size: 2.5vw;
     margin-right: 5%;
 }
 
-.booblehead-center{
-    background-color: black;
-    padding-bottom: 3%;
-    padding-top: 3%;
+/* map section end */
 
+
+/* booblehead profile pages start */
+
+
+
+.booble-profile{
+    margin-top: -15%;
+    margin-left: 10%;
+    background-image: url(./images/grey\ background.jpg);
+    border-radius: 100%;
+    opacity: 0.9;
 }
 
-.side-booble{
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.center-booble{
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.booble-popis-vnimani{
-    color: rgb(221,183,36);
-    font-family: 'Oswald', sans-serif;
-    font-size: 2vw;
-    text-align: center;  
-}
-
-.booble-popis-rychlost{
-    color: rgb(221,183,36);
-    font-family: 'Oswald', sans-serif;
-    font-size: 2vw;
-    text-align: center;  
-}
-
-
-
-.booble-popis-hbitost{
-    color: rgb(221,183,36);
-    font-family: 'Oswald', sans-serif;
-    font-size: 2vw;
+.booble-profile-name{
+    background: none;
     text-align: center;
-}
-
-.text-booble{
-    padding-top: 5%;
+    font-size: 7vw;
+    font-family: 'Rubik Distressed', cursive;
     color: rgb(221,183,36);
-    font-family: 'Oswald', sans-serif;
-    font-size: 3.5vw;
-    text-align: center;
+    margin-top: -39%;
 }
 
-.booblehead-list-container{
-    padding-top: 3%;
-    background-color:  rgb(236,235,232);
-    padding-right: 7%;
+.booble-profile-container{
+background-color: rgb(236,235,232);
+padding-bottom: 6%;
 }
 
-.booblehead-image{
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.booble-profile-desctiption{
+padding-left: 7%;
+padding-top: 4%;
+font-size: 1.9vw;
 }
 
-.booble-name{
-    text-align: center;
-    font-size: 1.8vw;
-    font-family: 'Oswald', bold;
+.booble-popis{
+    text-align: justify;
 }
 
-.booble-description{
-    text-align: center;
-    color: grey;
-    font-family: sans-serif;
-    font-size: 1.2vw;
-    padding-top: 1%;
+.video{
+padding-top: 10%;
+padding-left: 5%;
 }
-
-.booble-hr{
-    margin: auto;
-    width: 80%;
-}
-
-.map-image{
-    padding-top: 14%;
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.go-to-map{
-    font-size: 5vw;
-    font-family: 'Oswald', bold;
-    text-align: center;
-    margin: auto;
-}
-
-.go-to-map :hover{
-    color: rgb(221,183,36);
-}
-
-.go-to-map a {
-    all: unset;    
-}
-/* booblehead section end */
-
-
-
-/* booblehead section end */
-.map-row{
-    padding-top: 4%;
-}
-
+/* booblehead profile pages start */
