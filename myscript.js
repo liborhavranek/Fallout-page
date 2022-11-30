@@ -718,3 +718,10 @@ $(function(){
   });
 });
 //energyweapon funciton end👆
+
+// center booble start👇
+
+
+
+//center booble end👆
+
