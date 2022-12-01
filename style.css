@@ -554,7 +554,7 @@ font-size: 2.5vw;
 
 
 .booble-profile{
-    margin-top: -15%;
+    margin-top: -12%;
     margin-left: 10%;
     background-image: url(./images/grey\ background.jpg);
     border-radius: 100%;
@@ -564,10 +564,10 @@ font-size: 2.5vw;
 .booble-profile-name{
     background: none;
     text-align: center;
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: 'Rubik Distressed', cursive;
     color: rgb(221,183,36);
-    margin-top: -39%;
+    margin-top: -42%;
 }
 
 .booble-profile-container{
